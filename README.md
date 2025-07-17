@@ -111,7 +111,7 @@
         self.save_colleges()
         print("College added successfully!")
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     system = CollegeManagementSystem()
     print("\nWelcome to College Management System")
     print("------------------------------------")
