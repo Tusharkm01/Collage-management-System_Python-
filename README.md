@@ -1,9 +1,10 @@
 #Collage-management-System_Python-
 #csv file have to modified 
-import csv
-import os
 
-class CollegeManagementSystem:
+
+    import csv
+    import os
+    class CollegeManagementSystem:
     def __init__(self, file_path='colleges.csv'):
         self.file_path = file_path
         self.colleges = self.load_colleges()
